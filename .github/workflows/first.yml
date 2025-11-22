@@ -13,4 +13,4 @@ jobs:
           node-version: '20'
       - run: npm ci
       - run: npm run build
-      - run: npm run dev
+      - run: npm run start:dev
